@@ -1,1 +1,7 @@
+body {
+	background-color: gray;
+}
 
+.condensed {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
