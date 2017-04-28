@@ -1,0 +1,30 @@
+body,html{
+	height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.parallax {
+    background-image: url('valkyrie.jpg');
+    height: 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url('gunjack.jpg');
+    height: 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.extra{
+	height:400px;
+	background-color:red;
+	font-size:36px;
+    text-align: center;
+}
