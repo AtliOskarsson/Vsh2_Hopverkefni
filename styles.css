@@ -5,3 +5,19 @@ body {
 .condensed {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+.middle {
+    height: 100px;
+    width: 180px;
+    background: darkgray;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.images {
+	height: 100px;
+	width: 180px;
+}
