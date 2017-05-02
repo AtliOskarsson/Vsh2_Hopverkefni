@@ -1,12 +1,14 @@
 body,html{
 	height: 100%;
     width: 100%;
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 .parallax {
     background-image: url('valkyrie.jpg');
-    height: 1080px;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +17,7 @@ body,html{
 
 .parallax2{
     background-image: url('gunjack.jpg');
-    height: 1080px;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,8 +25,11 @@ body,html{
 }
 
 .extra{
-	height:400px;
-	background-color:red;
+	height:280px;
+	background:linear-gradient(to top, #a9abad, #051b30);
 	font-size:36px;
     text-align: center;
+    padding: 1em;
+    text-shadow: 5px 5px #000;
+
 }
