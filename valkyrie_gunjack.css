@@ -25,11 +25,11 @@ body,html{
 }
 
 .extra{
-	height:280px;
+    	height:280px;
 	background:linear-gradient(to top, #a9abad, #051b30);
 	font-size:36px;
-    text-align: center;
-    padding: 1em;
-    text-shadow: 5px 5px #000;
+    	text-align: center;
+    	padding: 1em;
+    	text-shadow: 5px 5px #000;
 
 }
