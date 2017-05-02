@@ -1,15 +1,24 @@
-body {
+body,html {
 	background-image: url("background.jpg");
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	background-size: cover;
 }
 
 .condensed {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+.time {
+	color: gray;
+	font-size: 50px;
+}
 .middle {
-    height: 100px;
-    width: 180px;
-    background: darkgray;
-
+	height: 280px;
+	width: 400px;
+    background: #151A45;
+    border: 20px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -18,6 +27,37 @@ body {
 }
 
 .images {
-	height: 100px;
-	width: 180px;
+	height: 200px;
+	width: 400px;
+}
+
+ul{
+	float:right;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(to top, #a9abad, #051b30);
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background:linear-gradient(to bottom, #a9abad, #051b30);
+}
+
+li:last-child{
+    border: none;
 }
