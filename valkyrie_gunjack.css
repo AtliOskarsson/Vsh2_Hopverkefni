@@ -5,7 +5,17 @@ body,html{
     padding: 0;
     color: white;
 }
+header{
+    z-index: 99;
+    position: fixed;
+    background-color: black;
+    width: 100%;
 
+}
+picture{
+    height: 2em;
+    width: 2em;
+}
 .parallax {
     background-image: url('valkyrie.jpg');
     height: 100%;
@@ -25,11 +35,41 @@ body,html{
 }
 
 .extra{
-    	height:280px;
+	height:200px;
 	background:linear-gradient(to top, #a9abad, #051b30);
 	font-size:36px;
-    	text-align: center;
-    	padding: 1em;
-    	text-shadow: 5px 5px #000;
+    text-align: center;
+    padding: 1em;
+    text-shadow: 3.2px 3.2px #000;
 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(to top, #a9abad, #051b30);
+
+}
+
+li{
+    float: right;
+    border-left: 1px solid white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background:linear-gradient(to bottom, #a9abad, #051b30);
+}
+
+li:last-child{
+    border-left: none;
 }
