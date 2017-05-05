@@ -1,3 +1,21 @@
+-------- HTML --------
+<header>
+	<div class="links">
+		<img src="circle.png" class="prism"></img>
+		<img src="circle.png" class="prism2"></img>
+		<img src="circle.png" class="prism3"></img>
+	</div>
+	<nav class="topmenu">
+		<ul>
+			<li><a class="active" href="#home">Contact</a></li>
+			<li><a href="#news">Registration</a></li>
+			<li><a href="#contact">Games</a></li>
+			<li><a href="#about">Home</a></li>
+		</ul>
+	</nav>
+</header>
+
+-------- CSS ----------
 .topmenu{
     display: block;
     clear: both;
