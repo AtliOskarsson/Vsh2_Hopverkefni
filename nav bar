@@ -26,6 +26,7 @@
     padding: 0;
     overflow: hidden;
     display: flex;
+    justify-content: center;
 }
 .topmenu li{
     border-right: 1px solid white;
@@ -49,7 +50,8 @@
     border: none;
 }
 .links {
-    float:left;
+    display: flex;
+    justify-content: center;
 }
 
 @-webkit-keyframes prism{
@@ -118,7 +120,7 @@
         border: none;
     }
     .links {
-        position: absolute;
+        position: fixed;
         top:0;
         left: 0;
         z-index: 99;
@@ -131,9 +133,7 @@
         margin: 0 auto;
     }
     .topmenu li a{
-
         padding: 1em;
-
     }
     .extra{
         font-size: 36px;
