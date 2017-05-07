@@ -3,26 +3,27 @@
 <head>
 	<title>Registration</title>
 	<link rel="stylesheet" type="text/css" href="registration.css">
-</head>
-<body>
+  <link rel="shortcut icon" href="fanfest_logo.ico">
+  <meta charset="utf-8">
 <header>
 	<ul>
 		<img src="circle.png" class="prism"></img>
 		<img src="circle.png" class="prism2"></img>
 		<img src="circle.png" class="prism3"></img>
-		<li><a class="active" href="#home">Home</a></li>
-		<li><a href="#news">Games</a></li>
-		<li><a href="#contact">Registration</a></li>
-		<li><a href="#about">Contact Us</a></li>
-	</ul>
+    <li><a href="#registration">Registration</a></li>
+    <li><a href="http://tsuts.tskoli.is/2t/1009002970/Vefsiduhonnun/VSH_verkefni_vor_2017/Lokaverkefni/valkyrie_gunjack.html">Games</a></li>
+		<li><a class="active" href="index.html">Home</a></li>
+  </ul>
 </header>
+</head>
+<body>
 
- <form method="post">
+ <form>
       
         <h1>Eve Online</h1>
         
         <fieldset>
-          <legend><span class="number">1</span>Basic info</legend>
+          <legend><span class="number prism">:)</span>Basic info</legend>
           <label for="name">Name:</label>
           <input type="text" id="name" name="user_name">
           
@@ -30,26 +31,16 @@
           <input type="email" id="mail" name="user_email">
           
           <label>Age:</label>
-          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 18</label><br>
-          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">18 or older</label>
+          <input type="radio"  name="user_age"><label for="under_18" class="light">Under 18</label><br>
+          <input type="radio" name="user_age"><label for="over_18" class="light">18 or older</label>
         </fieldset>
         <fieldset>
         <label for="job">Tickets:</label>
         <select id="job" name="user_job">
-          <optgroup label="Famous">
+            <option>Tickets</option>
             <option>Regular - 65$</option>
-            <option>VIP - </option>
-            <option >VIP+</option>
-            <option value="rails_developer"> Rails Developer</option>
-            <option value="web_designer">Web Designer</option>
-            <option value="WordPress_developer">WordPress Developer</option>
-          </optgroup>
-          <optgroup label="Non-Famous">
-            <option value="Android_developer">Androild Developer</option>
-            <option value="iOS_developer">iOS Developer</option>
-            <option value="mobile_designer">Mobile Designer</option>
-          </optgroup>
-          </optgroup>
+            <option>VIP - 150$</option>
+            <option>VIP+ - 150.5$</option>
         </select>
         </fieldset>
         <button type="submit">Sign Up</button>

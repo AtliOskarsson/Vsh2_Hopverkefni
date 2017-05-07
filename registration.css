@@ -16,37 +16,6 @@ ul{
 
 }
 
-@-webkit-keyframes prism{
-    100%{-webkit-transform: rotate(360deg);}
-}
-
-.prism{
-    height: 2.5em;
-    width: 2.5em;
-    animation-name: prism;
-    position: relative;
-    -webkit-animation: prism 5s infinite; 
-    animation: prism 5s infinite;
-}
-
-.prism2{
-    height: 2.5em;
-    width: 2.5em;
-    animation-name: prism;
-    position: relative;
-    -webkit-animation: prism 3.5s infinite; 
-    animation: prism 3.5s infinite;
-}
-
-.prism3{
-    height: 2.5em;
-    width: 2.5em;
-    animation-name: prism;
-    position: relative;
-    -webkit-animation: prism 2s infinite; 
-    animation: prism 2s infinite;
-}
-
 li{
     float: right;
     border-left: 1px solid white;
@@ -70,7 +39,7 @@ li:last-child{
 
 form {
   max-width: 300px;
-  margin: 100px auto;
+  margin: 5% auto;
   padding: 10px 30px;
   background:linear-gradient(to bottom, #a9abad, #051b30);
   border-radius: 8px;
@@ -87,7 +56,6 @@ input[type="date"],
 input[type="datetime"],
 input[type="email"],
 input[type="number"],
-input[type="search"],
 input[type="tel"],
 input[type="time"],
 input[type="url"],
@@ -149,7 +117,6 @@ label {
 }
 
 label.light {
-  font-weight: 300;
   display: inline;
 }
 
@@ -167,10 +134,139 @@ label.light {
   border-radius: 100%;
 }
 
-@media screen and (min-width: 480px) {
+.topmenu{
+    display: block;
+    clear: both;
+}
+.topmenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.topmenu li{
+    border-right: 1px solid white;
+    display: flex;
 
-  form {
-    max-width: 480px;
+}
+
+.topmenu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .8em;
+    text-decoration: none;
+}
+
+.topmenu li a:hover{
+    background:linear-gradient(to bottom, #a9abad, #051b30);
+}
+
+.topmenu li:last-child{
+    border: none;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+@-webkit-keyframes prism{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.prism{
+    height: 2.5em;
+    width: 2.5em;
+    animation-name: prism;
+    position: relative;
+    -webkit-animation: prism 5s infinite; 
+    animation: prism 5s infinite;
+}
+
+.prism2{
+    height: 2.5em;
+    width: 2.5em;
+    animation-name: prism;
+    position: relative;
+    -webkit-animation: prism 3.5s infinite; 
+    animation: prism 3.5s infinite;
+}
+
+.prism3{
+    height: 2.5em;
+    width: 2.5em;
+    animation-name: prism;
+    position: relative;
+    -webkit-animation: prism 2s infinite; 
+    animation: prism 2s infinite;
+}
+
+@media screen and (min-width: 34em){
+
+    .topmenu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .topmenu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+    }
+    .topmenu li{
+        border-right: 1px solid white;
+        display: flex;
+
+    }
+
+    .topmenu li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .topmenu li a:hover{
+        background:linear-gradient(to bottom, #a9abad, #051b30);
+    }
+
+    .topmenu li:last-child{
+        border: none;
+    }
+    .links {
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 99;
+    }
+    form {
+    max-width: 34em;
+    }
+}
+
+@media screen and (min-width: 60em){
+    body{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .topmenu li a{
+        padding: 1em;
+    }
+    .extra{
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 80em){
+  body{
+    max-width: 100%;
+    margin: 0 auto;
   }
-
+  .extra{
+    font-size: 40px;
+  }
 }
