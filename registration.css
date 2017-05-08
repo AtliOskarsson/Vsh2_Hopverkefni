@@ -6,35 +6,12 @@ body,html {
     padding: 0;
     background-size: cover;
 }
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+header{
+    z-index: 99;
+    position: relative;
+    background-color: black;
+    width: 100%;
     background:linear-gradient(to top, #a9abad, #051b30);
-
-}
-
-li{
-    float: right;
-    border-left: 1px solid white;
-}
-
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover{
-    background:linear-gradient(to bottom, #a9abad, #051b30);
-}
-
-li:last-child{
-    border-left: none;
 }
 
 form {
