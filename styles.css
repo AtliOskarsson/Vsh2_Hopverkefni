@@ -6,58 +6,43 @@ body,html {
 	padding: 0;
 	background-size: cover;
 }
+header{
+    z-index: 99;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    background:linear-gradient(to top, #a9abad, #051b30);
+}
 
+.intro{
+    width: 55%;
+    background:linear-gradient(to top, #a9abad, #051b30);
+    font-size:24px;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    border-radius: 90px;
+    text-shadow: 3.2px 3.2px #000;
+    color: white;
+}
 .condensed {
 	font-family: 'Open Sans Condensed', sans-serif;
+    background:linear-gradient(to top, black, #303b99)
 }
 
 .middle {
-    margin: 0;
+    margin: auto;
     width: 100%;
     margin-left: 0;
     margin-top: 0;
-    left: 0%
 }
 
 .images {
-	height: 200px;
-	width: 400px;
+	height: 70%;
+	width: 100%;
 	border-radius: 5px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background:linear-gradient(to top, #a9abad, #051b30);
-
-}
-
-@-webkit-keyframes prism{
-    100%{-webkit-transform: rotate(360deg);}
-}
-
-li{
-    float: right;
-    border-left: 1px solid white;
-}
-
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover{
-    background:linear-gradient(to bottom, #a9abad, #051b30);
-}
-
-li:last-child{
-    border-left: none;
-}
 .topmenu{
     display: block;
     clear: both;
